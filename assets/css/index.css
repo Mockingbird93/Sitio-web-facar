@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;1,700&display=swap');
+
+/**estilos del header**/
+#header {
+    background-color: rgb(191, 191, 191);
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    text-align: left;
+    margin: 0px;
+    padding: 0px;
+    max-width: 1361;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    flex-direction: row;
+    }
+.navegador{
+    display: flex;
+    text-decoration: none;
+    justify-content: space-between;
+}
+.navegador--int{
+    margin-top: 50px;
+    margin-left: 15px;
+    margin-right: 15px;   
+}
+li{
+    display: flex;
+}
+a{
+    text-decoration: none;
+}
+
+
+/**estilos del main**/
+main{
+    display: grid;
+    min-height: 10vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: auto;
+    align-content: start;
+}
+#main {
+    background-color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+}
+.monopieza {
+    max-width: 1500px;
+    height: 629px; 
+    margin: 30px 20px 30px;
+    grid-column: 1 / 4;
+    grid-row: 1;
+    text-align: center;
+}
+.tituloproductos{
+   grid-column: 1/3;
+   grid-row: 2;
+}
+.img-conicos{
+    width: 360px;   
+    height: 204px;
+    margin: 20x 10x 10x; 
+    grid-column: 1/2;
+    grid-row: 3;
+}
+.pretil_cilindrico{
+    grid-column: 2/3;
+    grid-row: 3;
+}
+.laja_deterraza{
+    grid-column: 3/4;
+    grid-row: 3;
+}
+
+.pretil_con{
+    grid-column: 1/2;
+    grid-row: 4;
+}
+
+.pretil_cil{
+    grid-column: 2/3;
+    grid-row: 4;
+}
+
+.laja_dt{
+    grid-column: 3/4;
+    grid-row: 4;
+}
+
+    /**estilos del footer**/
+#footer{
+    background-color: rgb(71, 82, 89);
+    font-size:  14px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    text-align: left;
+    margin: 0px;
+    padding: 0px;
+    max-width: 1361;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.columna1 h3 {
+    font-size: 20px;
+}
+
+.columna2 {
+    max-width: 680px;
+    margin-top: 100px;
+}
+.columna2 img {
+    width: 35px;
+    height: 35px;
+}
+
+/** Estilos formulario de contacto**/
+.formulario{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+.form_nya{
+    margin: 10px 10px 10px 10px;
+}
+.formulario_email{
+    margin: 10px 10px 10px 10px;    
+}
+
+
